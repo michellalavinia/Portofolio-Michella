@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michella Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav id="navbar">
+        <div class="container nav-container">
+
+            <button class="logo" data-section="home">
+                Portfolio
+            </button>
+
+            <div class="nav-links">
+                <button class="nav-link active" data-section="home">Home</button>
+                <button class="nav-link" data-section="about">About</button>
+                <button class="nav-link" data-section="skills">Skills</button>
+                <button class="nav-link" data-section="projects">Projects</button>
+                <button class="nav-link" data-section="education">Education</button>
+                <button class="nav-link" data-section="contact">Contact</button>
+            </div>
+
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </div>
+
+        <div id="mobile-menu">
+            <button data-section="home">Home</button>
+            <button data-section="about">About</button>
+            <button data-section="skills">Skills</button>
+            <button data-section="projects">Projects</button>
+            <button data-section="education">Education</button>
+            <button data-section="contact">Contact</button>
+        </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero-section">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    Electrical Engineering Student
+                </span>
+
+                <h1>
+                    Michella Lavinia Niti
+                </h1>
+
+                <p>
+                   Passionate about web development and UI/UX design,
+                   creating digital experiences that are both functional
+                   and user-friendly. Combining analytical thinking from
+                   engineering with creativity to build meaningful solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="primary-btn" data-section="projects">
+                        View Projects
+                    </button>
+
+                    <button class="secondary-btn" data-section="contact">
+                        Get In Touch
+                    </button>
+                </div>
+
+                <div class="social-links">
+                        <a href="https://github.com/michellalavinia" target="_blank" rel="noopener noreferrer" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+
+                    <a href="https://www.linkedin.com/in/michella-lavinia-niti-9867b136b/" target="_blank" rel="noopener noreferrer" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="mailto:michellalavinia21@gmail.com" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="image-glow"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p>
+                       I'm a second-semester Electrical Engineering student who is passionate about technology,
+                       software development, and digital design. My engineering background has helped me develop strong
+                       analytical and problem-solving skills, while my interest in web development and UI/UX design allows
+                       me to express creativity through digital products.
+                    </p>
+
+                    <p>
+                        I enjoy creating responsive websites, designing intuitive user interfaces, and learning how
+                        technology can improve everyday experiences. Every project I build is an opportunity to strengthen
+                        both my technical and design skills while exploring new tools and modern development practices.
+                    </p>
+
+                    <p>
+                        As I continue my journey in engineering and technology, I'm actively seeking opportunities to learn,
+                        collaborate, and contribute to impactful projects. I'm eager to gain industry experience, grow as a
+                        developer, and create solutions that are both functional and user-centered.
+                    </p>
+
+                </div>
+
+                <div class="about-cards">
+
+                    <div class="card">
+                        <div class="icon-box">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Building responsive and interactive web applications
+                            with modern technologies
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box">
+                            <i class="fas fa-palette"></i>
+                        </div>
+
+                        <h3>UI/UX Design</h3>
+
+                        <p>
+                            Creating user-centered designs that are both
+                            beautiful and functional
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+
+                        <h3>Quick Learner</h3>
+
+                        <p>
+                            Constantly exploring new technologies and design trends
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon-box">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+
+                        <h3>Goal-Oriented</h3>
+
+                        <p>
+                            Focused on delivering quality projects
+                            and continuous improvement
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section gray">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <div class="line"></div>
+
+                <p>
+                    Constantly learning and improving my skills in web development and design
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <!-- Frontend -->
+                <div class="skill-card">
+
+                    <div class="skill-header">
+                        <div class="skill-icon blue">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <h3>Frontend Development</h3>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill" data-width="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill" data-width="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill" data-width="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Responsive Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill" data-width="80"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Design -->
+                <div class="skill-card">
+
+                    <div class="skill-header">
+                        <div class="skill-icon purple">
+                            <i class="fas fa-palette"></i>
+                        </div>
+
+                        <h3>Design Tools</h3>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Figma</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill purple-fill" data-width="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill purple-fill" data-width="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Prototyping</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill purple-fill" data-width="75"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Git -->
+                <div class="skill-card">
+
+                    <div class="skill-header">
+                        <div class="skill-icon green">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+
+                        <h3>Version Control</h3>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Git</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill green-fill" data-width="70"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>GitHub</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-fill green-fill" data-width="80"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <div class="line"></div>
+
+            <p>
+                A collection of my web development and UI/UX design projects
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://i.pinimg.com/1200x/ff/bd/dd/ffbddd37b2ceffe750fc534bfa11429d.jpg"
+                        alt="Project">
+                    <span class="project-category">Web Development</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Modern Coffee Shop Platform</h3>
+
+                    <p>
+                        Modern coffee shop website UI/UX design featuring menu browsing,
+                        table reservations, promotions, customer reviews, and responsive layouts.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://michellalavinia.github.io/BrookHaven-Cafe/" class="project-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            <span>Demo</span>
+                        </a>
+
+                        <a href="https://github.com/michellalavinia/BrookHaven-Cafe.git" class="project-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <span>Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://i.pinimg.com/736x/50/4c/94/504c9430631cde54eb8f5f15e24273c2.jpg"
+                        alt="Project">
+                    <span class="project-category">Web Development</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Student Productivity Web</h3>
+
+                    <p>
+                       A modern student productivity dashboard that combines task management,
+                       study planning, note-taking, Pomodoro focus sessions, schedule organization, and learning analytics in one place.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://michellalavinia.github.io/StudySync/" class="project-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            <span>Demo</span>
+                        </a>
+
+                        <a href="https://github.com/michellalavinia/StudySync" class="project-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <span>Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section gray">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Education & Learning</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="education-grid">
+
+            <div class="education-card">
+
+                <div class="education-header">
+
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <div>
+                        <h3>Electrical Engineering</h3>
+
+                        <h4>Bachelor of Science (In Progress)</h4>
+
+                        <small>Currently in Second Semester</small>
+
+                        <p>GPA: 3.65/4.00</p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <h4>Areas of Interest</h4>
+
+                <ul class="education-list">
+                    <li>Frontend Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Responsive Web Design</li>
+                    <li>Engineering & Technology</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Let's Connect</h2>
+            <div class="line"></div>
+
+            <p>
+                I'm always open to discussing new opportunities,
+                projects, or just chatting about web development and design!
+            </p>
+        </div>
+
+        <div class="contact-grid">
+
+            <a href="mailto:michellalavinia21@gmail.com" class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <h3>Email</h3>
+                <p>michellalavinia21@gmail.com</p>
+            </a>
+
+            <a href="https://github.com/michellalavinia" target="_blank" class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+
+                <h3>GitHub</h3>
+                <p>@michellalavinia</p>
+            </a>
+
+            <a href="https://www.linkedin.com/in/michella-lavinia-niti-9867b136b/" target="_blank" class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+
+                <h3>LinkedIn</h3>
+                <p>Michella Lavinia Niti</p>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-title">Michella Lavinia Niti</h3>
+                    <p class="footer-text">
+                        Electrical Engineering Student passionate about technology, electronics, and web development. Continuously learning and building projects to expand technical and problem-solving skills.
+                    </p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#education" class="footer-link">Education</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="footer-social">
+                        <a href="https://github.com/michellalavinia" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/michella-lavinia-niti-9867b136b/" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="mailto:michellalavinia21@gmail.com" class="footer-social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
